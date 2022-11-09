@@ -1,0 +1,81 @@
+body{
+    padding: 0px 100px;
+    font-family: sans-serif;
+    background-color: #708090;
+}
+
+.container{
+    margin-top: 50px;
+
+}
+
+.upper div{
+    display: inline;
+    margin-left: 20px;
+    white-space: pre;
+   
+}
+
+.bottom{
+    margin-top: 80px;
+    display: flex;
+    
+}
+
+
+.bottom div{
+flex: 1;
+border: 2px solid #dcdcdc;
+border-radius: 5px;
+box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+height: 400px;
+margin: 10px;
+    }
+
+.bottom div img{
+    max-width: calc(100% - 20px);
+    max-height: calc(100% - 20px);
+    margin: 10px;
+}
+
+
+.bottom div textarea{
+    resize: none;
+    width: calc(100% - 21px);
+    height: calc(100% - 21px);
+    padding: 10px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+}
+
+
+.bottom div:first-child{
+    margin-left: 0px;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    display: -webkit-box;
+}
+.bottom div:last-child{
+    margin-right: 0px;
+}
+
+
+.addimage{
+    border: solid 3px #dcdcdc ;
+}
+
+
+button {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+   font-size: 17px;
+   font-family: sans-serif;
+   letter-spacing: 1px;
+}
+
+.fileselect{
+    margin-right: 20px;
+}
